@@ -1,0 +1,14 @@
+(
++(2*bw*L^2*Mb+ 2*Ib*bw)*Xdot
++(g*L^2*Mb^2*R^2)*Theta 
++(2*L^2*Mb*R^2+ 2*L*Mb*R^2 + 2*Ib*R^2)*T 
+)
+/(R^2*(2*Ib*Iw + Ib*Mb + 2*Ib*Mw + 2*Iw*L^2*Mb + 2*L^2*Mb*Mw))
+
+
+(
++ 2*L*Mb*bw *Xdot
++ (L*Mb^2*R^2*g + 2*Iw*L*Mb*R^2*g + 2*L*Mb*Mw*R^2*g)*Theta
+- (4*Iw*R^2 + 2*Mb*R^2 + 4*Mw*R^2 + 2*L*Mb*R^2)*T 
+)
+/(R^2*(2*Ib*Iw + Ib*Mb + 2*Ib*Mw + 2*Iw*L^2*Mb + 2*L^2*Mb*Mw))
